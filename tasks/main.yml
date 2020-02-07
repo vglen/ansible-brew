@@ -9,8 +9,8 @@
     state=present
   with_items:
     - ethereum/ethereum
-    - homebrew/completions
-    - homebrew/binary
+    # - homebrew/completions
+    # - homebrew/binary
 
 - name: Install some brews
   homebrew: name={{ item }}
