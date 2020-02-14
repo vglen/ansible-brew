@@ -16,21 +16,30 @@
   homebrew: name={{ item }}
     state=present
   with_items:
+    - ansible
+    - ansible-galaxy
+    - ansible-lint
     - autossh
+    - bash-completion
     - bash-git-prompt
+    - cask
     - coreutils
     - curl
     - dnstracer
     - fpp
+    - fzf
     - gdbm
     - git
     - git-lfs
     - gnupg
     - gnu-tar
+    - gnutls
     - go
+    - hadolint
     - htop-osx
     - httpie
     - ipcalc
+    - jq
     - libevent
     - libtool
     - libyaml
@@ -44,12 +53,20 @@
     - pcre
     - pkg-config
     - postgresql
+    - python
+    - python3
     - readline
     - s3cmd
     - ssh-copy-id
     - sysdig
+    - terraform
+    - tflint
+    - thefuck
+    - tmux
     - todo-txt
     - tree
-    - xz
+    - unbound
     - wget
     - whois
+    - xz
+    - yamllint
